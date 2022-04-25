@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: bebas;
+    src: url(fonts/bebas.ttf) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+    margin: 0px;
+}
+body {
+    background-color: #bbf1d2;
+    margin: 0px;
+    padding-top: 180px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to top, #1A5D38, #2A9559, #5ACC8C);
+    height: 160px;
+    color: white;
+    text-align: center;
+    font-family: 'bebas', Times, serif;
+    font-size: 1em;
+    padding-top: 20px;
+}
+header > h1 {
+    margin: auto 0;
+    height: 70px;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+a.menunav {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    list-style: none;
+    padding-left: 15px;
+    position: fixed;
+    top: 155px;
+}
+
+.menu > li {
+    display: inline;
+    padding-right: 15px;
+    font-weight: bold;
+}
+.menu > li > a {
+    display: inline;
+}
+
+
+main {
+    background-color: white;
+    margin: 0px 90px 0px 90px;
+    box-shadow: 0px 0px 5px 1px #00000066;
+    padding-bottom: 15px;
+    
+}
+h2 {
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    padding: 25px 0px 20px 20px;
+    color: #1C5D3A;
+    font-size: 30px;
+    
+}
+p {
+    text-indent: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    text-align: justify;
+}
+h3 {
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    color:#1C5D3A ;
+    margin: 0px 0px 0px 25px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #b3f7d0a6, #eef8f3 ,white );
+}
+picture {
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+div.fotos {
+    text-align: center;
+}
+div.video {
+    text-align: center;
+    background-color: #1A5D38;
+    padding: 20px 0px;
+}
+section{
+    background-color: #bbf1d2;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 1px 1px 4px 0px #00000042;
+    padding-bottom: 5px;
+}
+h3.section {
+    border-radius: 10px 10px 0px 0px;
+    background-image: none;
+    background-color: #2FA866;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 35px;
+    font-size: 20px;
+    padding: 10px 0px 0px 10px;
+    
+}
+section > p {
+    text-indent: 20px;
+    padding: 10px 0px 10px 0px;
+}
+a.versoes {
+    color: black;
+    text-decoration: underline;
+    
+}
+ul.versoesd {
+    list-style-image: url(imagens/checkmark.png);
+    float: right; text-align: justify;  width: 50%;
+    padding-bottom: 15px;
+    
+}
+ul.versoese {
+    list-style-image: url(imagens/checkmark.png);
+    float: left; text-align: justify;
+    padding-bottom: 15px;
+}
+footer {
+    background-color: #1A5D38;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+span {
+    font-weight: bold;
+    color: #1A5D38;
+}
